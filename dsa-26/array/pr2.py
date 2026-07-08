@@ -9,3 +9,12 @@ for i in result:
         ans = result[-2]
     
 print(ans)
+
+
+#optimal solution
+nums = [8, 8, 8, 8, 8]
+result = sorted(set(nums))
+if len(result) == 1:
+    print(-1)
+else:
+    print(result[-2])  # second largest
