@@ -48,5 +48,6 @@ class Solution:
             j+=1
         for j in range(count_of_zero+count_of_one,len(nums)):
             nums[j]=2
-            j+=1      
+            j+=1    
+              
         return nums        
