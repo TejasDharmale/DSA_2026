@@ -1,4 +1,4 @@
-nums = [8,2,9,0,4]
+nums = [8, 2, 9, 0, 4]
 
 result = sorted(set(nums))
 for i in result:
@@ -7,11 +7,11 @@ for i in result:
         break
     else:
         ans = result[-2]
-    
+
 print(ans)
 
 
-#optimal solution
+# optimal solution
 nums = [8, 8, 8, 8, 8]
 result = sorted(set(nums))
 if len(result) == 1:
