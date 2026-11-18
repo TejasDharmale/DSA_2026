@@ -23,3 +23,4 @@ class Solution:
 # this is a brute force solution with time complexity of O(n^3) where n is the length of s.
 # here we are checking all the substrings of s and counting the frequency of each character in the substring.
 # checking if the substring can be rearranged to form a palindrome by counting the number of characters with odd frequency.
+# time exceeds for large inputs. so best solution is to use dynamic programming or center expansion technique to reduce the time complexity to O(n^2).
